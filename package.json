@@ -1,0 +1,20 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "Primera Aplicacion con Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "devstart": "nodemon src/index.js"
+  },
+  "keywords": [
+    "Node Js",
+    "Express",
+    "Website"
+  ],
+  "author": "Chk",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
