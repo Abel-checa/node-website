@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 3000
 
 app.get('/',(req,res) =>{
-    const user = "<h1> USER: "+process.env.MYSQL_USER+"</h1>"
+    const user = "<h1> USER: "+process.env.MYSQL_USER+"HOLA MODIFICACION</h1>"
     const host =  "<h1> HOST: "+process.env.MYSQL_HOST+"</h1>"
     const pass =  "<h1>PASS: "+process.env.MYSQL_PASS+"</h1>"
 
